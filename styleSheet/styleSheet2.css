@@ -1,0 +1,349 @@
+@font-face {
+	font-family:Quotes;
+	src: url(../fonts/DailyGrind-Demo.ttf);
+}
+@font-face {
+	font-family:signiture;
+	src: url(../fonts/Blacksword.otf);
+}
+@font-face {
+	font-family:Logo;
+	src: url(../fonts/coolvetica_rg.ttf);
+}
+@font-face {
+	font-family:Andy;
+	src: url(../fonts/Anydore.ttf);
+}
+
+body{
+	margin:0;
+	padding:0;
+	width:1600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#topSection{
+	height:810px;	
+	position:relative;
+	background-image:url(../imgs/Latty005.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	-moz-box-shadow:0 0 10px 0 black;
+	-webkit-box-shadow:0 0 10px 0 black;
+	box-shadow:0 0 10px 0 black;
+	z-index:105;
+}
+#topSectionContainer{
+	width:90%;
+	height:840px;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:transparent;
+}
+#topSection ul{
+	list-style-type:none; /* remove bulletons */
+	text-align:center; /* moves list to center of parent div */
+	width:80%;
+	height:70px;
+	float:right;
+	position:relative;
+	top:30px;
+}
+#topSection ul li{
+	width:15%;
+	display:inline-block; /* displays items in one line. */
+	line-height:70px;
+	color:white;
+	font-weight:bold;
+	font-size:30px;
+	font-family:Logo, arial, sans-serif;
+	margin-left:15px;
+	margin-right:15px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	
+}
+#topSection ul li:hover{
+	color:#333;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+#contactDiv{
+	margin:0;
+	height:60%;
+	width:1600px;
+	position:relative;
+	left:-80px;
+	top:170px;
+	background-color:#f1f1f1; /* #f1f1f1 */
+	box-shadow: inset 0px 0px 10px black;
+	z-index:91;
+}
+
+#socials{
+	width:700px;
+	height:100%;
+	float:left;
+	position:relative;
+	top:-102px;
+	background:transparent;
+	border-right: 1px solid gray;	
+}
+
+#socials h1{
+	text-align:center;
+	color:#ce2029;
+	font-family:roboto;
+	font-size:38px;
+	margin:30px 0 0 30px;
+}
+
+
+.table{
+	width:500px;
+	height:300px;
+	position:relative;
+	top:-40px;
+	left:10px;
+}
+.fa {
+	margin:5px;
+	padding:20px;
+	width:45px;
+    text-align: center;
+    text-decoration: none;
+	display:inline-block;
+	border-radius:50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+	position:relative;
+	top:-6px;
+	z-index:105;
+}
+
+/* Set a specific color for each brand */
+
+.fa-soundcloud {
+    background: #ff3a00;
+    color: white;
+}
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+/* Instagram */
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+
+/*       by mark murray at codepen.io      and edited for this page.     */
+
+
+
+.container {
+  width:600px;
+  text-align:center;
+  position:relative;
+  top:-60px;
+  right:200px;
+  float:right;
+  -webkit-border-radius:6px;
+  -moz-border-radius:6px;
+  border-radius:6px;
+  background-color:#FAFAFA;
+  box-shadow: 0px 0px 10px black;
+  margin:0;
+}
+.head {
+  -webkit-border-radius:6px 6px 0px 0px;
+  -moz-border-radius:6px 6px 0px 0px;
+  border-radius:6px 6px 0px 0px;
+  background-color:#ce2029;
+  color:#FAFAFA;
+}
+h2 {
+	margin:0;
+  text-align:center;
+  padding:18px 0 18px 0;
+  font-size: 1.4em;
+  font-family:arial;
+}
+input {
+  margin-bottom:10px;
+}
+textarea {
+  height:100px;
+  margin-bottom:10px;
+}
+input:first-of-type
+{
+  margin-top:35px;
+}
+input, textarea {
+  font-size: 1em;
+  padding: 15px 10px 10px;
+  font-family: 'Source Sans Pro',arial,sans-serif;
+  border: 1px solid #cecece;
+  background: #d7d7d7;
+  color:black;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 80%;
+  max-width: 600px;
+}
+::-webkit-input-placeholder {
+   color: gray;
+}
+:-moz-placeholder {
+   color: #FAFAFA;  
+}
+::-moz-placeholder {
+   color: #FAFAFA; 
+}
+:-ms-input-placeholder {  
+   color: #FAFAFA;  
+}
+button {
+  margin-top:15px;
+  margin-bottom:25px;
+  background-color:#ce2029;
+  padding: 12px 45px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #ce2029;
+  -webkit-transition: .5s;
+  transition: .5s;
+  display: inline-block;
+  cursor: pointer;
+  width:30%;
+  color:#fff;
+}
+button:hover, .button:hover {
+  background:#ce2029;
+}
+label.error {
+    font-family:'Source Sans Pro',arial,sans-serif;
+    font-size:1em;
+    display:block;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#d89c9c;
+    width: 80%;
+    margin:auto;
+    color: #FAFAFA;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius:6px;
+}
+
+.message {
+    font-family:'Source Sans Pro',arial,sans-serif;
+    font-size:1.1em;
+    display:none;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#2ABCA7;
+    width: 80%;
+    margin:auto;
+    color: #FAFAFA;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius:6px;
+}
+
+/*         by mark murray at codepen.io          and edited for this page.            */
+
+
+#footer{
+	height:50px;
+	background:white;
+	background-color:#ce2029;
+}
+#footer p{
+	float:left;
+	color:white;
+	font-family:arial;
+	font-size:20px;
+	line-height:8px;
+	position:relative;
+	left:150px;
+}
+
+#footer ul{
+	padding:0;
+	margin:0;
+	position:relative;
+	right:150px;
+	list-style-type:none;
+	display:inline-block; /* displays items in one line. */
+	float:right;
+}
+#footer a{
+	width:45px;
+	top:-50px;
+}
+#footer .fa {
+	margin:0px;
+	padding:10px;
+	width:45px;
+	position:relative;
+	bottom:6px;
+    text-align: center;
+    text-decoration: none;
+	display:inline-block;
+	border-radius:0%;
+}
+
+/* Add a hover effect if you want */
+#footer a .fa:hover {
+	position:relative;
+	top:-6px;
+	z-index:105;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+#footer .fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+/* Instagram */
+#footer .fa-instagram {
+  background: #125688;
+  color: white;
+}
+/* Twitter */
+#footer .fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+

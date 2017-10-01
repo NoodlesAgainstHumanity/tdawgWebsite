@@ -1,0 +1,157 @@
+@font-face {
+	font-family:Quotes;
+	src: url(../fonts/DailyGrind-Demo.ttf);
+}
+@font-face {
+	font-family:signiture;
+	src: url(../fonts/Blacksword.otf);
+}
+@font-face {
+	font-family:Logo;
+	src: url(../fonts/coolvetica_rg.ttf);
+}
+@font-face {
+	font-family:Andy;
+	src: url(../fonts/Anydore.ttf);
+}
+
+body{
+	margin:0;
+	padding:0;
+	width:1600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#topSection{
+	height:810px;	
+	position:relative;
+	background-image:url(../imgs/Latty005.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	-moz-box-shadow:0 0 10px 0 black;
+	-webkit-box-shadow:0 0 10px 0 black;
+	box-shadow:0 0 10px 0 black;
+	z-index:105;
+}
+#topSectionContainer{
+	width:90%;
+	height:840px;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:transparent;
+}
+#topSection ul{
+	list-style-type:none; /* remove bulletons */
+	text-align:center; /* moves list to center of parent div */
+	width:80%;
+	height:70px;
+	float:right;
+	position:relative;
+	top:30px;
+}
+#topSection ul li{
+	width:15%;
+	display:inline-block; /* displays items in one line. */
+	line-height:70px;
+	color:white;
+	font-weight:bold;
+	font-size:30px;
+	font-family:Logo, arial, sans-serif;
+	margin-left:15px;
+	margin-right:15px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	
+}
+#topSection ul li:hover{
+	color:#333;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+#playList{
+	margin:0;
+	height:60%;
+	width:1600px;
+	position:relative;
+	left:-80px;
+	top:170px;
+	background-color:#434a50; /* #f1f1f1 */
+	box-shadow: inset 0px 0px 10px black;
+	z-index:91;
+}
+#soundCloud{
+	margin:0;
+	width:700px;
+	height:99%;
+	position:relative;
+	top:-102px;
+	left:430px;
+	box-shadow: 0px 0px 10px #888888;
+}
+#footer{
+	height:50px;
+	background:white;
+	background-color:#ce2029;
+}
+#footer p{
+	float:left;
+	color:white;
+	font-family:arial;
+	font-size:20px;
+	line-height:8px;
+	position:relative;
+	left:150px;
+}
+
+#footer ul{
+	padding:0;
+	margin:0;
+	position:relative;
+	right:150px;
+	list-style-type:none;
+	display:inline-block; /* displays items in one line. */
+	float:right;
+}
+.fa {
+	margin:0;
+	padding:5px;
+	font-size: 20px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+	position:relative;
+	top:-6px;
+	z-index:105;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+/* Instagram */
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
