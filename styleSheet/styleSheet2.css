@@ -14,7 +14,10 @@
 	font-family:Andy;
 	src: url(../fonts/Anydore.ttf);
 }
-
+html {
+	margin:0;
+	padding:0;
+}
 body{
 	margin:0;
 	padding:0;
@@ -35,11 +38,12 @@ body{
 }
 #topSectionContainer{
 	width:90%;
-	height:840px;
+	height:100%;
 	position:relative;
 	margin-left:auto;
 	margin-right:auto;
 	background-color:transparent;
+
 }
 #topSection ul{
 	list-style-type:none; /* remove bulletons */
@@ -69,6 +73,7 @@ body{
 }
 #contactDiv{
 	margin:0;
+	padding:0;
 	height:60%;
 	width:1600px;
 	position:relative;
@@ -146,10 +151,6 @@ body{
 }
 
 
-/*       by mark murray at codepen.io      and edited for this page.     */
-
-
-
 .container {
   width:600px;
   text-align:center;
@@ -192,7 +193,7 @@ input:first-of-type
 input, textarea {
   font-size: 1em;
   padding: 15px 10px 10px;
-  font-family: 'Source Sans Pro',arial,sans-serif;
+  font-family: arial,sans-serif;
   border: 1px solid #cecece;
   background: #d7d7d7;
   color:black;
@@ -209,16 +210,16 @@ input, textarea {
   max-width: 600px;
 }
 ::-webkit-input-placeholder {
-   color: gray;
+   color: dark-gray;
 }
 :-moz-placeholder {
-   color: #FAFAFA;  
+   color: dark-gray;  
 }
 ::-moz-placeholder {
-   color: #FAFAFA; 
+   color: dark-gray; 
 }
 :-ms-input-placeholder {  
-   color: #FAFAFA;  
+   color: dark-gray;  
 }
 button {
   margin-top:15px;
@@ -235,12 +236,14 @@ button {
   cursor: pointer;
   width:30%;
   color:#fff;
+  font-family:roboto;
+  font-size:1em;
 }
 button:hover, .button:hover {
   background:#ce2029;
 }
 label.error {
-    font-family:'Source Sans Pro',arial,sans-serif;
+    font-family:arial,sans-serif;
     font-size:1em;
     display:block;
     padding-top:10px;
@@ -255,7 +258,7 @@ label.error {
 }
 
 .message {
-    font-family:'Source Sans Pro',arial,sans-serif;
+    font-family:arial,sans-serif;
     font-size:1.1em;
     display:none;
     padding-top:10px;
@@ -268,8 +271,6 @@ label.error {
     -moz-border-radius:6px;
     border-radius:6px;
 }
-
-/*         by mark murray at codepen.io          and edited for this page.            */
 
 
 #footer{
