@@ -21,7 +21,9 @@ html {
 body{
 	margin:0;
 	padding:0;
-	width:1600px;
+	width:100%;
+	max-width: 1600px;
+	min-width: 1000px;
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -38,6 +40,8 @@ body{
 }
 #topSectionContainer{
 	width:90%;
+	max-width: 1600px;
+	min-width: 1000px;
 	height:100%;
 	position:relative;
 	margin-left:auto;
@@ -75,7 +79,7 @@ body{
 	margin:0;
 	padding:0;
 	height:60%;
-	width:1600px;
+	width:100%;
 	position:relative;
 	left:-80px;
 	top:170px;
@@ -85,7 +89,7 @@ body{
 }
 
 #socials{
-	width:700px;
+	width:50%;
 	height:100%;
 	float:left;
 	position:relative;
@@ -104,7 +108,7 @@ body{
 
 
 .table{
-	width:500px;
+	width:50%;
 	height:300px;
 	position:relative;
 	top:-40px;
