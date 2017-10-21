@@ -18,7 +18,9 @@
 body{
 	margin:0;
 	padding:0;
-	width:1600px;
+	width:100%;
+	max-width:1600px;
+	min-width:1000px;
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -41,7 +43,7 @@ body{
 	margin-right:auto;
 	background-color:transparent;
 }
-#topSection ul{
+#topNav {
 	list-style-type:none; /* remove bulletons */
 	text-align:center; /* moves list to center of parent div */
 	width:80%;
@@ -50,7 +52,7 @@ body{
 	position:relative;
 	top:30px;
 }
-#topSection ul li{
+#topNav li{
 	width:15%;
 	display:inline-block; /* displays items in one line. */
 	line-height:70px;
@@ -63,7 +65,7 @@ body{
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	
 }
-#topSection ul li:hover{
+#topNav li:hover{
 	color:#333;
 	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
